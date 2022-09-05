@@ -7,14 +7,25 @@
         <groupId>com.rednikeeg</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+    <groupId>com.rednikeeg.bbuilder</groupId>
+    <version>0.0.1-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
     <description>Library for work with action-config for bot-driver</description>
 
-    <artifactId>config</artifactId>
+    <artifactId>action-config</artifactId>
+    <packaging>jar</packaging>
+
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+
+    </dependencies>
 </project>
