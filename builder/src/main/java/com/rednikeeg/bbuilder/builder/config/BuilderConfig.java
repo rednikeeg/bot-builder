@@ -6,5 +6,5 @@ import org.springframework.context.annotation.Import;
 
 @Configuration
 @Import(value = {ActionContextConfiguration.class})
-public class ApplicationConfig {
+public class BuilderConfig {
 }
